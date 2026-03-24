@@ -231,7 +231,7 @@ export default function Home() {
           and capture ideas without ever switching apps.
         </p>
         <div>
-          <a className="btn-download" href="https://github.com/DeezVrOfficial/calcunotes/releases/download/CalcuNotes/CalcuNotes.ipa" download>
+          <a className="btn-download" href="https://github.com/DeezVrOfficial/CalculatorNotes-.ipa/releases/download/V1.0.0/CalcuNotes.ipa" download>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 1v9M4.5 6.5 8 10l3.5-3.5M2 13h12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
