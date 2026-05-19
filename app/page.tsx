@@ -219,7 +219,7 @@ export default function Home() {
       `}</style>
 
       <nav>
-        <a className="nav-logo" href="https://github.com/DeezVrOfficial/DTASLOI-Website">DTASLOI</a>
+        <a className="nav-logo" href="https://discord.gg/invite/mMZev2ST8q">DTASLOI</a>
         <span className="nav-badge">LOADER</span>
       </nav>
 
