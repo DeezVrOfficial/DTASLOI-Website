@@ -237,9 +237,9 @@ export default function Home() {
                 stroke="currentColor" strokeWidth="1.6"
                 strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            Run DTASLOI Scan
+            Download Loader
           </a>
-          <p className="download-note">Simulated environment • No real detection</p>
+          <p className="download-note">Safe environment • Undetected</p>
         </div>
       </section>
 
