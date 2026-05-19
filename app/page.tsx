@@ -251,7 +251,7 @@ export default function Home() {
           {[
             { icon: "🛡️", title: "Virus Free", body: "Virus Free (Unlike Skidurra)." },
             { icon: "📡", title: "No Internet Needed", body: "Loadable dlls without internet." },
-            { icon: "🧠", title: "Simple Process", body: "Loads smoothly with a simple methos." },
+            { icon: "🧠", title: "Simple Process", body: "Loads smoothly with a simple method." },
             { icon: "⚡", title: "Instant Load", body: "Instantly loads with no lag, bugs, or crashes." },
           ].map((f) => (
             <div className="feature-item" key={f.title}>
