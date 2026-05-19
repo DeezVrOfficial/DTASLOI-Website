@@ -249,7 +249,7 @@ export default function Home() {
         <p className="features-label">Loader Features</p>
         <div className="features-grid">
           {[
-            { icon: "🛡️", title: "Virus Free", body: "Virus Free (Unlike Skidura)." },
+            { icon: "🛡️", title: "Virus Free", body: "Virus Free (Unlike Skidurra)." },
             { icon: "📡", title: "No Internet Needed", body: "Loadable dlls without internet." },
             { icon: "🧠", title: "Simple Process", body: "Loads smoothly with a simple methos." },
             { icon: "⚡", title: "Instant Load", body: "Instantly loads with no lag, bugs, or crashes." },
