@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "DTASLOI Loader",
   description:
-    "CalcuNotes combines a full calculator with a built-in notepad so you can solve problems and capture ideas without ever switching apps.",
+    "DTASLOI Loader is a clean mod-check style interface with a cyan cyber aesthetic.",
 };
 
 export default function Home() {
@@ -15,13 +15,13 @@ export default function Home() {
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-          --bg: #F7F5F2;
-          --ink: #1A1814;
-          --muted: #7A7469;
-          --accent: #2D5BE3;
-          --accent-light: #EEF2FD;
-          --rule: #E2DED8;
-          --card: #FFFFFF;
+          --bg: #050A0F;
+          --ink: #EAFBFF;
+          --muted: #7AA7B5;
+          --accent: #00E5FF;
+          --accent-light: rgba(0, 229, 255, 0.08);
+          --rule: rgba(0, 229, 255, 0.15);
+          --card: #0B141B;
         }
 
         html { scroll-behavior: smooth; }
@@ -42,7 +42,8 @@ export default function Home() {
           align-items: center;
           padding: 1.5rem 3rem;
           border-bottom: 1px solid var(--rule);
-          background: var(--bg);
+          background: rgba(5, 10, 15, 0.8);
+          backdrop-filter: blur(10px);
           position: sticky;
           top: 0;
           z-index: 10;
@@ -52,7 +53,7 @@ export default function Home() {
           font-family: 'DM Serif Display', serif;
           font-size: 1.25rem;
           letter-spacing: -0.02em;
-          color: var(--ink);
+          color: var(--accent);
           text-decoration: none;
         }
 
@@ -111,27 +112,27 @@ export default function Home() {
           display: inline-flex;
           align-items: center;
           gap: 0.65rem;
-          background: var(--ink);
-          color: #fff;
+          background: var(--accent);
+          color: #001014;
           text-decoration: none;
           font-size: 0.9rem;
-          font-weight: 500;
+          font-weight: 600;
           letter-spacing: 0.02em;
           padding: 0.9rem 2rem;
           border-radius: 0.5rem;
-          transition: background 0.2s, transform 0.15s;
-          margin-bottom: 0.85rem;
+          transition: 0.2s;
+          box-shadow: 0 0 25px rgba(0, 229, 255, 0.25);
         }
 
         .btn-download:hover {
-          background: var(--accent);
           transform: translateY(-2px);
+          box-shadow: 0 0 35px rgba(0, 229, 255, 0.4);
         }
 
         .download-note {
           font-size: 0.75rem;
           color: var(--muted);
-          letter-spacing: 0.02em;
+          margin-top: 0.5rem;
         }
 
         .divider {
@@ -162,7 +163,6 @@ export default function Home() {
           grid-template-columns: repeat(2, 1fr);
           gap: 1px;
           background: var(--rule);
-          border: 1px solid var(--rule);
           border-radius: 0.75rem;
           overflow: hidden;
         }
@@ -170,10 +170,12 @@ export default function Home() {
         .feature-item {
           background: var(--card);
           padding: 2rem;
-          transition: background 0.2s;
+          transition: 0.2s;
         }
 
-        .feature-item:hover { background: var(--accent-light); }
+        .feature-item:hover {
+          background: rgba(0, 229, 255, 0.05);
+        }
 
         .feature-icon {
           font-size: 1.4rem;
@@ -184,7 +186,6 @@ export default function Home() {
           font-family: 'DM Serif Display', serif;
           font-size: 1.05rem;
           margin-bottom: 0.4rem;
-          letter-spacing: -0.01em;
         }
 
         .feature-body {
@@ -199,14 +200,13 @@ export default function Home() {
           padding: 1.75rem 3rem;
           display: flex;
           justify-content: space-between;
-          align-items: center;
           font-size: 0.78rem;
           color: var(--muted);
         }
 
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(18px); }
-          to   { opacity: 1; transform: translateY(0); }
+          to { opacity: 1; transform: translateY(0); }
         }
 
         @media (max-width: 560px) {
@@ -219,38 +219,40 @@ export default function Home() {
       `}</style>
 
       <nav>
-        <a className="nav-logo" href="#">CalcuNotes</a>
-        <span className="nav-badge">iOS App</span>
+        <a className="nav-logo" href="#">DTASLOI</a>
+        <span className="nav-badge">MOD CHECK SYSTEM</span>
       </nav>
 
       <section className="hero">
-        <span className="hero-eyebrow">Now Available</span>
-        <h1>Calculate &amp; <em>note</em><br />all in one.</h1>
+        <span className="hero-eyebrow">System Online</span>
+        <h1>DTASLOI <em>Loader</em></h1>
         <p className="hero-desc">
-          CalcuNotes combines a full calculator with a built-in notepad so you can solve problems
-          and capture ideas without ever switching apps.
+          Cyan-secured mod checking interface designed for fast scanning, diagnostics, and system status reporting.
         </p>
+
         <div>
-          <a className="btn-download" href="https://github.com/DeezVrOfficial/CalculatorNotes-.ipa/releases/download/V1.0.0/CalcuNotes.ipa" download>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 1v9M4.5 6.5 8 10l3.5-3.5M2 13h12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+          <a className="btn-download" href="#">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M8 1v9M4.5 6.5 8 10l3.5-3.5M2 13h12"
+                stroke="currentColor" strokeWidth="1.6"
+                strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            Download IPA
+            Run DTASLOI Scan
           </a>
-          <p className="download-note">Requires sideloading via AltStore, Sideloadly, or similar</p>
+          <p className="download-note">Simulated environment • No real detection</p>
         </div>
       </section>
 
       <hr className="divider" />
 
       <section className="features">
-        <p className="features-label">Features</p>
+        <p className="features-label">System Modules</p>
         <div className="features-grid">
           {[
-            { icon: "🧮", title: "Full Calculator", body: "Handles everyday arithmetic quickly and reliably — no frills, just fast." },
-            { icon: "📝", title: "Built-in Notepad", body: "Jot down results, ideas, or reminders right alongside your calculations." },
-            { icon: "✦",  title: "Clean Design",    body: "A distraction-free interface designed for speed and clarity." },
-            { icon: "🎒", title: "For Everyone",    body: "Perfect for students, budgeting, shopping lists, homework, and daily tasks." },
+            { icon: "🛡️", title: "Integrity Scan", body: "Checks runtime environment status and integrity flags." },
+            { icon: "📡", title: "Network Check", body: "Monitors connection stability and packet response time." },
+            { icon: "🧠", title: "Process Monitor", body: "Tracks active processes and system-level behavior." },
+            { icon: "⚡", title: "Instant Report", body: "Generates a fast diagnostic output for system review." },
           ].map((f) => (
             <div className="feature-item" key={f.title}>
               <div className="feature-icon">{f.icon}</div>
@@ -262,8 +264,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <span>© 2026 CalcuNotes</span>
-        <span>iOS · Sideload Only</span>
+        <span>© 2026 DTASLOI</span>
+        <span>Cyan Build v1.0</span>
       </footer>
     </>
   );
