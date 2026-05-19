@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CalcuNotes",
+  title: "DTASLOI Loader",
   description:
     "CalcuNotes combines a full calculator with a built-in notepad so you can solve problems and capture ideas without ever switching apps.",
 };
