@@ -220,14 +220,14 @@ export default function Home() {
 
       <nav>
         <a className="nav-logo" href="#">DTASLOI</a>
-        <span className="nav-badge">MOD CHECK SYSTEM</span>
+        <span className="nav-badge">LOADER</span>
       </nav>
 
       <section className="hero">
-        <span className="hero-eyebrow">System Online</span>
+        <span className="hero-eyebrow">Loader Online</span>
         <h1>DTASLOI <em>Loader</em></h1>
         <p className="hero-desc">
-          Cyan-secured mod checking interface designed for fast scanning, diagnostics, and system status reporting.
+          Official Loader for DTASLOI
         </p>
 
         <div>
