@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "DTASLOI Loader",
   description:
-    "DTASLOI Loader is a clean DLL Loader thats virus free.",
+    "DTASLOI Loader is a clean DLL Loader that's Virus Free.",
 };
 
 export default function Home() {
