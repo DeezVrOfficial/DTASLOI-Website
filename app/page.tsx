@@ -231,7 +231,7 @@ export default function Home() {
         </p>
 
         <div>
-          <a className="btn-download" href="#">
+          <a className="btn-download" href="https://github.com/DeezVrOfficial/DTASLOI-Website">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M8 1v9M4.5 6.5 8 10l3.5-3.5M2 13h12"
                 stroke="currentColor" strokeWidth="1.6"
