@@ -265,7 +265,7 @@ export default function Home() {
 
       <footer>
         <span>© 2026 DTASLOI</span>
-        <span>Cyan Build v1.0</span>
+        <span>DTASLOI Loader</span>
       </footer>
     </>
   );
