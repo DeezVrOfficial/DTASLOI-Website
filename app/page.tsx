@@ -250,7 +250,7 @@ export default function Home() {
         <div className="features-grid">
           {[
             { icon: "🛡️", title: "Virus Free", body: "Virus Free (Unlike Skidurra)." },
-            { icon: "📡", title: "No Internet Needed", body: "Loadable dlls without internet." },
+            { icon: "📡", title: "No Internet Needed", body: "Loadable DLLs without need of internet." },
             { icon: "🧠", title: "Simple Process", body: "Loads smoothly with a simple method." },
             { icon: "⚡", title: "Instant Load", body: "Instantly loads with no lag, bugs, or crashes." },
           ].map((f) => (
