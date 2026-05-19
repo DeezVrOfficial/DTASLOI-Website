@@ -246,13 +246,13 @@ export default function Home() {
       <hr className="divider" />
 
       <section className="features">
-        <p className="features-label">System Modules</p>
+        <p className="features-label">Loader Features</p>
         <div className="features-grid">
           {[
-            { icon: "🛡️", title: "Integrity Scan", body: "Checks runtime environment status and integrity flags." },
-            { icon: "📡", title: "Network Check", body: "Monitors connection stability and packet response time." },
-            { icon: "🧠", title: "Process Monitor", body: "Tracks active processes and system-level behavior." },
-            { icon: "⚡", title: "Instant Report", body: "Generates a fast diagnostic output for system review." },
+            { icon: "🛡️", title: "Virus Free", body: "Virus Free (Unlike Skidura)." },
+            { icon: "📡", title: "No Internet Needed", body: "Loadable dlls without internet." },
+            { icon: "🧠", title: "Simple Process", body: "Loads smoothly with a simple methos." },
+            { icon: "⚡", title: "Instant Load", body: "Instantly loads with no lag, bugs, or crashes." },
           ].map((f) => (
             <div className="feature-item" key={f.title}>
               <div className="feature-icon">{f.icon}</div>
