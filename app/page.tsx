@@ -224,7 +224,7 @@ export default function Home() {
       </nav>
 
       <section className="hero">
-        <span className="hero-eyebrow">Loader Online</span>
+        <span className="hero-eyebrow">Loader Offline</span>
         <h1>DTASLOI <em>Loader</em></h1>
         <p className="hero-desc">
           Official Loader for DTASLOI
